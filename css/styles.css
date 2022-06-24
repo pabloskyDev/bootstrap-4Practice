@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-1 .bg-style {
+    background-color: #A0D995;
+    padding: 30px;
+    border: 1px solid #fff;
+}
