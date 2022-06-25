@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+    overflow-y: auto;
+}
+
 #header img {
     width: 80px;
 }
@@ -15,7 +20,7 @@
 }
 
 .main .carousel-inner img{
-    max-height: 70vh;
+    max-height: 80vh;
     object-fit: cover;
     filter: grayscale(70%);
 }
@@ -47,6 +52,20 @@
 .btn-platzi:hover {
     background:  #82ad36;
     color: #fff;
+}
+
+#speakers .card .photoCard {
+    height: 300px;
+    object-fit: cover;
+}
+
+#speakers .card .card-text {
+    height: 150px;
+    overflow-y: auto;
+}
+
+#speakers .card .socialM img{
+    width: 20px;
 }
 
 #footer {
